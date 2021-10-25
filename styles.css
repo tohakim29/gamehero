@@ -1,0 +1,168 @@
+body{
+  background-color: #d7daf7;
+}
+
+div#main {
+  max-width: 600;
+  margin: 0 auto;
+  font-size: 2em;
+  text-align: center;
+  
+}
+
+
+
+
+
+
+
+
+div#vs{
+  max-width: 200;
+  margin: 0 auto;
+  font-size: 24px;
+  text-align: center;
+
+  color: blueviolet;
+}
+
+
+#firstButton,#secondButton{
+  background-color: #212555;
+  height: 20px; 
+  border:0px solid #2E472A;
+  color: white;
+  border-radius: 8px;
+}
+
+
+
+
+#firstButton:hover{
+  background-color: #535bb3;
+  height: 20px; 
+  border:px solid white;
+  color: white;
+}
+#firstButtton:active{
+  background-color: #535bb3;
+  height: 22px; 
+  border:1px solid white;
+  color: white;
+}
+
+
+
+
+#secondButton:hover{
+  background-color: #535bb3;
+  height: 20px; 
+  border:px solid white;
+  color: white;
+}
+#secondButton:active{
+  background-color: #535bb3;
+  height: 22px; 
+  border:1px solid white;
+  color: white;
+}
+
+
+
+h3{
+  color: #212555;
+}
+
+#win{
+  color: rgb(213, 28, 28);
+  font-size: 22px;
+  
+ 
+}
+
+#playAgain{
+  background-color: #535bb3;
+  height: 22px; 
+  border:1px solid white;
+  color: white;
+  border-radius: 8px;
+  
+
+}
+#playAgain:hover{
+  background-color: #181e6b;
+  height: 22px; 
+  border:0px solid white;
+  color: white;
+  border-radius: 8px;
+}
+
+img{
+  border-radius:65%;
+  margin: 5px;
+}
+p{
+  color: #181e6b;
+}
+label{
+  color: #181e6b;
+}
+
+
+input{
+  color: #181e6b;
+  border-color: 3px solid #181e6b;
+  border-radius:10px;
+  padding: 5px;
+  font-size: 18px;
+}
+input:active{
+  color: #181e6b;
+  border-color: 3px solid #181e6b;
+  border-radius:12px;
+}
+
+
+#start{
+  background-color: #212555;
+  height: 40px; 
+  width: 300px;
+  border:0px solid #2E472A;
+  color: white;
+  border-radius: 15px;
+}
+
+
+
+#start:hover{
+  background-color: #535bb3;
+  height: 40px; 
+  width: 300px;
+  border:px solid white;
+  color: white;
+}
+#start:active{
+  background-color: #535bb3;
+  height: 40px; 
+  width: 300px;
+  border:1px solid white;
+  color: white;
+}
+#shield{
+  background-image: url(Img/shield_red.png);
+  background-repeat: no-repeat;
+width: 20px;
+height: 20px;
+
+
+background-size: cover;
+display: inline-block;
+background-position: center;
+
+
+}
+#message{
+  color: rgb(233, 17, 17);
+
+
+}
